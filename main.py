@@ -8,8 +8,8 @@ account_sid = os.environ.get("ACCOUNT_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
 
 param = {
-    "lon": 125.6094,
-    "lat": 7.0662,
+    "lon": os.environ.get("YOUR_LONGITUDE"),
+    "lat": os.environ.get("YOUR_LATITUDE"),
     "cnt": 4,
     "appid": api_key
 }
