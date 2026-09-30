@@ -4,8 +4,8 @@ import os
 
 api_key = os.environ.get("API_KEY")
 
-account_sid = os.environ.get["ACCOUNT_SID"]
-auth_token = os.environ.get["AUTH_TOKEN"]
+account_sid = os.environ.get("ACCOUNT_SID")
+auth_token = os.environ.get("AUTH_TOKEN")
 
 param = {
     "lon": 125.6094,
