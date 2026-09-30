@@ -28,3 +28,5 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
           FROM_PHONE_NUMBER: ${{ secrets.FROM_PHONE_NUMBER }}
           TO_PHONE_NUMBER: ${{ secrets.TO_PHONE_NUMBER }}
+          YOUR_LATITUDE: ${{ secrets.YOUR_LATITUDE }}
+          YOUR_LONGITUDE: ${{ secrets.YOUR_LONGITUDE }}
